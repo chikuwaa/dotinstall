@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body{
+  background: #efefef;
+}
+#btn{
+  margin: 30px auto 0;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: #eF454A;
+  text-align: center;
+  color: #fff;
+  font-size: 42px;
+  font-weight: bold;
+  line-height: 200px;
+  cursor: pointer;
+  opacity: 0.9;
+  box-shadow: 0 10px 0 #d1483e;
+  border: 3px solid #d1483e;
+  user-select:none;
+  -moz-user-select:none;
+}
+#btn:hover{
+  opacity: 1;
+}
+#btn.pushed{
+  margin-top: 36px;
+  box-shadow: 0 4px 0 #d1483e;
+}
